@@ -1,0 +1,42 @@
+<html>
+    <head>
+      <title>Sample "Hello, World" Application</title>
+      <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+      <script src="demo/js/multiLineEllipsis.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="demo/css/multiLineEllipsis.min.css">
+      <style>
+        .ellipsis{
+            width:100px;
+        }
+      </style>
+      <script>
+          $(function(){
+                $(".ellipsis").multiLineEllipsis({line:2,tooltip:true});
+          });
+      </script>
+    </head>
+    <body bgcolor=white>
+  
+      <table border="0" cellpadding="10">
+        <tr>
+          <td>
+            <img src="images/springsource.png">
+          </td>
+          <td>
+            <h1>Sample "Hello, World" Application</h1>
+          </td>
+        </tr>
+      </table>
+  
+      <p>This is the home page for the HelloWorld Web application. </p>
+      <p>To prove that they work, you can execute either of the following links:
+      <ul>
+        <li id="test" class="ellipsis">To a JSP page and I'm trying to apply ellipsis</a>.
+        <li class="ellipsis">This is small</a>.
+      </ul>
+  
+    </body>
+  </html>
