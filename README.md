@@ -8,7 +8,7 @@ A JQuery plugin to set ellipsis to a text by line count. Converts the text to mu
 
 # Usage
 
-Inlude libraries
+Include libraries
 ```sh
 <script type="text/javascript" src="src/multiLineEllipsis.min.js"></script>
 <link rel="stylesheet" type="text/css" href="src/css/multiLineEllipsis.css">
