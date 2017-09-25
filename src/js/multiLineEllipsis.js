@@ -3,7 +3,7 @@
         var settings = $.extend({
             line:2,
             tooltip:true
-        });
+        }, options);
         this.each(function(){
             applyEllipsis(this,this.offsetWidth,settings.line,settings.tooltip);
         });
